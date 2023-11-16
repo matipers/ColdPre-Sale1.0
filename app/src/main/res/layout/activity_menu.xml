@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/size"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="0.6"
+    android:background="@drawable/centella111"
+    android:scrollbarSize="4dp"
+    tools:context=".MenuActivity">
+
+    <Button
+        android:id="@+id/botonInventario"
+        android:layout_width="200dp"
+        android:layout_height="52dp"
+        android:backgroundTint="#FFE57F"
+        android:text="Inventario"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.804" />
+
+    <Button
+        android:id="@+id/botonCrearEmpleado"
+        android:layout_width="201dp"
+        android:layout_height="55dp"
+        android:backgroundTint="#FFE57F"
+        android:text="Crear Empleado"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.544" />
+
+    <Button
+        android:id="@+id/botonEmpleados"
+        android:layout_width="198dp"
+        android:layout_height="53dp"
+        android:backgroundTint="#FFE57F"
+        android:text="Empleados"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.535"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.681" />
+
+    <Button
+        android:id="@+id/botonCerrar"
+        android:layout_width="196dp"
+        android:layout_height="54dp"
+        android:backgroundTint="#FFE57F"
+        android:text="Cerrar sesion"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.933" />
+
+    <ImageView
+        android:id="@+id/imageViewEmpleado"
+        android:layout_width="158dp"
+        android:layout_height="155dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.885"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.263"
+        tools:srcCompat="@android:drawable/ic_menu_camera"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/imagenviewLogo"
+        android:layout_width="162dp"
+        android:layout_height="154dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.164"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.263"
+        tools:srcCompat="@android:drawable/ic_menu_camera"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textViewHead"
+        android:layout_width="412dp"
+        android:layout_height="130dp"
+        android:background="#48814A"
+        android:backgroundTint="#417E0C"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>
