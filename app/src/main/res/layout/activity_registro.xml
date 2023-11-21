@@ -16,7 +16,7 @@
         app:srcCompat="@drawable/savory" />
 
     <EditText
-        android:id="@+id/editTextText3"
+        android:id="@+id/editdni"
         android:layout_width="211dp"
         android:layout_height="45dp"
         android:layout_marginTop="16dp"
@@ -27,10 +27,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText2" />
+        app:layout_constraintTop_toBottomOf="@+id/editapellidos" />
 
     <EditText
-        android:id="@+id/editTextText2"
+        android:id="@+id/editapellidos"
         android:layout_width="211dp"
         android:layout_height="45dp"
         android:layout_marginTop="68dp"
@@ -44,29 +44,15 @@
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
-        android:layout_width="211dp"
-        android:layout_height="45dp"
-        android:background="@drawable/textbox"
-        android:ems="10"
-        android:hint="  Repetir Contraseña"
-        android:inputType="textPassword"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword2"
-        app:layout_constraintVertical_bias="0.134" />
 
-    <EditText
-
-        android:id="@+id/editTextText"
+        android:id="@+id/editnombres"
         android:layout_width="211dp"
         android:layout_height="45dp"
         android:background="@drawable/textbox"
         android:ems="10"
         android:hint="  Nombres"
         android:inputType="text"
-        app:layout_constraintBottom_toTopOf="@+id/editTextText2"
+        app:layout_constraintBottom_toTopOf="@+id/editapellidos"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
@@ -74,7 +60,7 @@
         app:layout_constraintVertical_bias="0.66" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress2"
+        android:id="@+id/editcorreo"
         android:layout_width="211dp"
         android:layout_height="45dp"
         android:layout_marginTop="16dp"
@@ -85,10 +71,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText3" />
+        app:layout_constraintTop_toBottomOf="@+id/editdni" />
 
     <EditText
-        android:id="@+id/editTextTextPassword2"
+        android:id="@+id/editcontraseña"
         android:layout_width="211dp"
         android:layout_height="45dp"
         android:layout_marginTop="12dp"
@@ -99,7 +85,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress2" />
+        app:layout_constraintTop_toBottomOf="@+id/editcorreo" />
 
     <TextView
         android:id="@+id/textView5"
@@ -113,15 +99,16 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <Button
-        android:id="@+id/botonCrear"
+        android:id="@+id/botonCrearregistro"
         android:layout_width="222dp"
         android:layout_height="57dp"
+        android:layout_marginBottom="36dp"
         android:backgroundTint="#318BE4"
         android:text="Crear"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

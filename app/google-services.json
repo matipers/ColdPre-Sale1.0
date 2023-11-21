@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "292690190928",
+    "project_id": "cold-pre-sale",
+    "storage_bucket": "cold-pre-sale.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292690190928:android:d76e978d5c5449ca486755",
+        "android_client_info": {
+          "package_name": "com.example.coldpre_sale"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCxOmMANjaxT4AViiy19UlYN1qsg0kc88"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
